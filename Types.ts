@@ -76,4 +76,15 @@ type Admins = User & {
 
 function abcd(obj: Admins) {
     obj.getDetails("Awais"); // Calling the function properly
+    obj.password;
 }
+// OPPs
+
+class Device {
+    name="awais";
+    price=1200;
+    catogory="digital"
+
+}
+let d1 = new Device();
+let d2 =new Device();
