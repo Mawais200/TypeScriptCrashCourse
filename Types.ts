@@ -78,7 +78,8 @@ function abcd(obj: Admins) {
     obj.getDetails("Awais"); // Calling the function properly
     obj.password;
 }
-// OPPs
+// OPPs --------------------------------------------------------------
+//clases
 
 class Device {
     name="awais";
@@ -88,3 +89,12 @@ class Device {
 }
 let d1 = new Device();
 let d2 =new Device();
+// Constructor
+class bottle{
+     age=0;
+    constructor(public name:string){
+
+    }
+
+}
+new bottle("Milton"); 
